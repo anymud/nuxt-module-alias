@@ -4,6 +4,7 @@
     "name": "shtse8",
     "email": "shtse8@gmail.com"
   },
+  "version": "v0.1.5",
   "scripts": {
     "build": "bun build.ts",
     "publish": "npm publish --access=public"
@@ -49,6 +50,5 @@
     "configuration",
     "nuxt-plugin",
     "nuxt-config"
-  ],
-  "version": "v0.1.4"
+  ]
 }
