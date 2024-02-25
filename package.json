@@ -4,18 +4,24 @@
     "name": "shtse8",
     "email": "shtse8@gmail.com"
   },
+  "scripts": {
+    "build": "bun build.ts",
+    "publish": "npm publish --access=public"
+  },
   "description": "Nuxt.js module to add module alias",
   "license": "MIT",
   "repository": "https://github.com/anymud/nuxt-module-alias",
   "private": false,
   "module": "index.ts",
   "type": "module",
-  "devDependencies": {
-    "@nuxt/kit": "^3.10.3",
-    "@types/bun": "latest",
-    "@types/module-alias": "^2.0.4",
+  "dependencies": {
+    "module-alias": "^2.2.3",
     "consola": "^3.2.3",
-    "module-alias": "^2.2.3"
+    "@nuxt/kit": "^3.10.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/module-alias": "^2.0.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -23,5 +29,8 @@
   "exports": {
     ".": "./dist/index.js"
   },
-  "version": "v0.0.3"
+  "files": [
+    "dist"
+  ],
+  "version": "v0.0.4"
 }
