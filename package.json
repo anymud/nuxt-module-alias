@@ -4,7 +4,7 @@
     "name": "shtse8",
     "email": "shtse8@gmail.com"
   },
-  "version": "v0.1.5",
+  "version": "v0.1.6",
   "scripts": {
     "build": "bun build.ts"
   },
