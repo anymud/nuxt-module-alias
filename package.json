@@ -6,6 +6,7 @@
   },
   "version": "v0.1.5",
   "scripts": {
+    "build": "bun build.ts"
   },
   "description": "Nuxt.js module to add module alias",
   "license": "MIT",
