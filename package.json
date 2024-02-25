@@ -32,5 +32,23 @@
   "files": [
     "dist"
   ],
-  "version": "v0.0.4"
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "module-alias",
+    "typescript",
+    "tsconfig",
+    "alias",
+    "development",
+    "nuxt-module",
+    "nuxt-extension",
+    "path-alias",
+    "nuxtjs",
+    "nuxt3-module",
+    "jsconfig",
+    "configuration",
+    "nuxt-plugin",
+    "nuxt-config"
+  ],
+  "version": "v0.1.4"
 }

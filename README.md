@@ -41,6 +41,25 @@ export default defineNuxtConfig({
 
 This setup ensures that alias resolution is applied before any other module logic, allowing for seamless integration with your project's existing structure.
 
+### Sample Output
+After setting up @anymud/nuxt-module-alias, you should see output similar to the following, indicating that the aliases have been successfully added:
+
+```console
+ℹ Setting up alias ...
+✔ Adding alias ~ -> /home/kyle/anymud/src
+✔ Adding alias @ -> /home/kyle/anymud/src
+✔ Adding alias ~~ -> /home/kyle/anymud
+✔ Adding alias @@ -> /home/kyle/anymud
+✔ Adding alias assets -> /home/kyle/anymud/src/assets
+✔ Adding alias public -> /home/kyle/anymud/src/public
+✔ Adding alias cookie -> cookie       
+✔ Adding alias #app -> /home/kyle/anymud/node_modules/nuxt/dist/app
+✔ Adding alias vue-demi -> /home/kyle/anymud/node_modules/nuxt/dist/app/compat/vue-demi
+✔ Adding alias @vue/composition-api -> /home/kyle/anymud/node_modules/nuxt/dist/app/compat/
+✔ Alias setup complete
+This output verifies that the necessary aliases have been correctly added to your project, simplifying your development workflow.
+```
+
 ## Configuration
 
 Currently, `@anymud/nuxt-module-alias` does not require additional configuration. It works out-of-the-box by leveraging your existing `tsconfig.json` paths. However, future versions may introduce customizable options for enhanced flexibility.
