@@ -1,0 +1,20 @@
+{
+  "name": "@anymud/nuxt-module-alias",
+  "author": {
+    "name": "shtse8",
+    "email": "shtse8@gmail.com"
+  },
+  "description": "Nuxt.js module to add module alias",
+  "license": "MIT",
+  "repository": "https://github.com/anymud/nuxt-module-alias",
+  "private": false,
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "version": "v0.0.1"
+}
