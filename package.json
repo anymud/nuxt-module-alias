@@ -15,11 +15,11 @@
   "module": "index.ts",
   "type": "module",
   "dependencies": {
-    "module-alias": "^2.2.3",
-    "consola": "^3.2.3",
-    "@nuxt/kit": "^3.10.3"
   },
   "devDependencies": {
+    "module-alias": "^2.2.3",
+    "consola": "^3.2.3",
+    "@nuxt/kit": "^3.10.3",
     "@types/bun": "latest",
     "@types/module-alias": "^2.0.4"
   },
